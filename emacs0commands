@@ -1,0 +1,147 @@
+Basics
+
+C-x C-f find file i.e. open/create a file in buffer
+
+C-x C-s save the file
+
+C-x C-w write the text to an alternate name
+
+C-x C-v find alternate file
+
+C-x i insert file at cursor position
+
+C-x b create/switch buffers
+
+C-x C-b show buffer list
+
+C-x k kill buffer
+
+C-z suspend emacs 
+
+C-X C-c close down emacs
+
+
+
+Basic movement
+
+C-f forward char
+
+C-b backward char
+
+C-p previous line
+
+C-n next line
+
+M-f forward one word
+
+M-b backward one word
+
+C-a beginning of line
+
+C-e end of line
+
+C-v one page up
+
+M-v scroll down one page
+
+M-(less then) beginning of text
+
+M-(greater then) end of text
+
+
+
+Editing
+
+M-n repeat the following command n times
+
+C-u repeat the following command 4 times
+
+C-u n repeat n times
+
+C-d delete a char
+
+M-d delete word
+
+M-Del delete word backwards
+
+C-k kill line
+
+
+
+C-Space Set beginning mark (for region marking for example)
+
+C-W kill (delete) the marked region region
+
+M-W copy the marked region
+
+C-y yank (paste) the copied/killed region/line
+
+M-y yank earlier text (cycle through kill buffer)
+
+C-x C-x exchange cursor and mark
+
+
+
+C-t transpose two chars
+
+M-t transpose two words
+
+C-x C-t transpose lines
+
+M-u make letters uppercase in word from cursor position to end
+
+M-c simply make first letter in word uppercase
+
+M-l opposite to M-u
+
+
+
+Important
+
+C-g quit the running/entered command
+
+C-x u undo previous action
+
+M-x revert-buffer RETURN (insert like this) undo all changes since last save
+
+M-x recover-file RETURN Recover text from an autosave-file
+
+M-x recover-session RETURN if you edited several files
+
+
+
+Online-Help
+
+C-h c which command does this keystroke invoke
+
+C-h k which command does this keystroke invoke and what does it do?
+
+C-h l what were my last 100 typed keys
+
+C-h w what key-combo does this command have?
+
+C-h f what does this function do
+
+C-h v what's this variable and what is it's value
+
+C-h b show all keycommands for this buffer
+
+C-h t start the emacs tutorial
+
+C-h i start the info reader
+
+C-h C-k start up info reader and go to a certain key-combo point
+
+C-h F show the emacs FAQ
+
+C-h p show infos about the Elisp package on this machine
+
+
+
+Search/Replace
+
+C-s Search forward
+
+C-r search backward
+
+C-g return to where search started (if you are still in search mode)
